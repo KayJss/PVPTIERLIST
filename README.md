@@ -57,9 +57,6 @@ Displays player tiers, badges, and points for different PvP kits.
 - Easy server IP copy
 - API integration for real-time data
 
-### Demo
-
-![screenshot](https://i.imgur.com/1Q9Z1ZB.png) <!-- Replace with your own screenshot if needed -->
 
 ### Installation
 
