@@ -1,7 +1,7 @@
 <!-- Tabs: English | Türkçe -->
 
-<div style="text-align:center; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 20px 0;">
-  <a href="#english" 
+<div style="text-align:center; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, sans-serif; margin: 20px 0;">
+  <a href="#english"
      aria-current="page"
      style="
        display: inline-block;
@@ -12,11 +12,14 @@
        text-decoration: none;
        border-bottom: 2px solid #0366d6;
        cursor: pointer;
+       transition: color 0.2s ease, border-color 0.2s ease;
      "
+     onmouseover="this.style.color='#0056b3'; this.style.borderColor='#0056b3';"
+     onmouseout="this.style.color='#0366d6'; this.style.borderColor='#0366d6';"
   >
     English
   </a>
-  <a href="#türkçe" 
+  <a href="#türkçe"
      style="
        display: inline-block;
        padding: 12px 16px;
@@ -26,11 +29,15 @@
        text-decoration: none;
        border-bottom: 2px solid transparent;
        cursor: pointer;
+       transition: color 0.2s ease, border-color 0.2s ease;
      "
+     onmouseover="this.style.color='#0366d6'; this.style.borderColor='#0366d6';"
+     onmouseout="this.style.color='#586069'; this.style.borderColor='transparent';"
   >
     Türkçe
   </a>
 </div>
+
 
 
 ---
