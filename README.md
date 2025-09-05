@@ -44,7 +44,7 @@
 
 ## <a id="english"></a>English
 
-# Minecraft Crystal PvP Tier List
+# Minecraft PvP Tier List
 
 A modern, responsive leaderboard web app for Minecraft PvP servers.  
 Displays player tiers, badges, and points for different PvP kits.
@@ -122,7 +122,7 @@ Designed by KayJs
 
 ## <a id="türkçe"></a>Türkçe
 
-# Minecraft Crystal PvP Tier Listesi
+# Minecraft PvP Tier Listesi
 
 Minecraft PvP sunucuları için modern, duyarlı bir liderlik tablosu web uygulaması.  
 Farklı PvP kitleri için oyuncu tier'larını, rozetlerini ve puanlarını gösterir.
