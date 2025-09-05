@@ -1,0 +1,58 @@
+.mctiers-header {
+    display: flex;
+    flex-direction: column;
+    background: #151a23;
+    padding: 24px 0 0 0;
+    border-bottom: 2px solid #232a3a;
+    position: relative;
+    z-index: 2;
+}
+.mctiers-logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-left: 32px;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.nav-btn.active, .nav-btn:hover {
+    background: #ffe600;
+    color: #232a3a;
+}
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    position: absolute;
+    right: 32px;
+    top: 32px;
+    padding: 16px 18px;
+    transition: background 0.2s, border-color 0.2s, transform 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.tier-lt2 .player-card {
+    border-left: 6px solid #ff00c3;
+}
+.tier-lt3 .player-card {
+    border-left: 6px solid #ffe600;
+}
+.player-card:hover {
+    background: #18182a;
+    transform: scale(1.05);
+    border-color: #fff;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: transparent;
+    color: #aaa;
+    font-size: 1rem;
+    position: relative;
+    z-index: 2;
+    border-top: 2px solid #00c3ff;
+    margin-top: 40px;
+}

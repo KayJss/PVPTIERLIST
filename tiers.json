@@ -1,0 +1,33 @@
+{
+  "vanilla": {
+    "tier1": [
+      {
+        "name": "test",
+        "badges": [
+          "ht1"
+        ],
+        "points": 100
+      }
+    ],
+    "tier2": [
+      {
+        "name": "KayJs",
+        "badges": [
+          "ht2"
+        ],
+        "points": 80
+      }
+    ]
+  },
+  "uhc": {
+    "tier1": [
+      {
+        "name": "KayJs",
+        "badges": [
+          "ht1"
+        ],
+        "points": 100
+      }
+    ]
+  }
+}
