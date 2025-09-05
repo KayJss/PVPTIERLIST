@@ -1,16 +1,50 @@
 <!-- Tabs: English | Türkçe -->
 
-<div align="center">
-
-<a href="#english" style="margin-right:2em;font-weight:bold;">English</a> | <a href="#türkçe" style="font-weight:bold;">Türkçe</a>
-
+<div style="text-align:center; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, sans-serif; margin: 20px 0;">
+  <a href="#english"
+     aria-current="page"
+     style="
+       display: inline-block;
+       padding: 12px 16px;
+       margin: 0 10px;
+       color: #0366d6;
+       font-weight: 600;
+       text-decoration: none;
+       border-bottom: 2px solid #0366d6;
+       cursor: pointer;
+       transition: color 0.2s ease, border-color 0.2s ease;
+     "
+     onmouseover="this.style.color='#0056b3'; this.style.borderColor='#0056b3';"
+     onmouseout="this.style.color='#0366d6'; this.style.borderColor='#0366d6';"
+  >
+    English
+  </a>
+  <a href="#türkçe"
+     style="
+       display: inline-block;
+       padding: 12px 16px;
+       margin: 0 10px;
+       color: #586069;
+       font-weight: 600;
+       text-decoration: none;
+       border-bottom: 2px solid transparent;
+       cursor: pointer;
+       transition: color 0.2s ease, border-color 0.2s ease;
+     "
+     onmouseover="this.style.color='#0366d6'; this.style.borderColor='#0366d6';"
+     onmouseout="this.style.color='#586069'; this.style.borderColor='transparent';"
+  >
+    Türkçe
+  </a>
 </div>
+
+
 
 ---
 
 ## <a id="english"></a>English
 
-# Minecraft Crystal PvP Tier List
+# Minecraft PvP Tier List
 
 A modern, responsive leaderboard web app for Minecraft PvP servers.  
 Displays player tiers, badges, and points for different PvP kits.
@@ -31,7 +65,7 @@ Displays player tiers, badges, and points for different PvP kits.
 
 1. **Clone the repository:**
    ```
-   git clone https://github.com/yourusername/minecraft-tier-site.git
+   git clone https://github.com/KayJss/PVPTIERLIST
    cd minecraft-tier-site
    ```
 
@@ -88,7 +122,7 @@ Designed by KayJs
 
 ## <a id="türkçe"></a>Türkçe
 
-# Minecraft Crystal PvP Tier Listesi
+# Minecraft PvP Tier Listesi
 
 Minecraft PvP sunucuları için modern, duyarlı bir liderlik tablosu web uygulaması.  
 Farklı PvP kitleri için oyuncu tier'larını, rozetlerini ve puanlarını gösterir.
@@ -101,15 +135,11 @@ Farklı PvP kitleri için oyuncu tier'larını, rozetlerini ve puanlarını gös
 - Kolay sunucu IP kopyalama
 - Gerçek zamanlı veri için API entegrasyonu
 
-### Demo
-
-![screenshot](https://i.imgur.com/1Q9Z1ZB.png) <!-- Kendi ekran görüntünüzle değiştirebilirsiniz -->
-
 ### Kurulum
 
 1. **Projeyi klonlayın:**
    ```
-   git clone https://github.com/yourusername/minecraft-tier-site.git
+   git clone https://github.com/KayJss/PVPTIERLIST
    cd minecraft-tier-site
    ```
 
