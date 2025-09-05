@@ -1,10 +1,37 @@
 <!-- Tabs: English | Türkçe -->
 
-<div align="center">
-
-<a href="#english" style="margin-right:2em;font-weight:bold;">English</a> | <a href="#türkçe" style="font-weight:bold;">Türkçe</a>
-
+<div style="text-align:center; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 20px 0;">
+  <a href="#english" 
+     aria-current="page"
+     style="
+       display: inline-block;
+       padding: 12px 16px;
+       margin: 0 10px;
+       color: #0366d6;
+       font-weight: 600;
+       text-decoration: none;
+       border-bottom: 2px solid #0366d6;
+       cursor: pointer;
+     "
+  >
+    English
+  </a>
+  <a href="#türkçe" 
+     style="
+       display: inline-block;
+       padding: 12px 16px;
+       margin: 0 10px;
+       color: #586069;
+       font-weight: 600;
+       text-decoration: none;
+       border-bottom: 2px solid transparent;
+       cursor: pointer;
+     "
+  >
+    Türkçe
+  </a>
 </div>
+
 
 ---
 
@@ -31,7 +58,7 @@ Displays player tiers, badges, and points for different PvP kits.
 
 1. **Clone the repository:**
    ```
-   git clone https://github.com/yourusername/minecraft-tier-site.git
+   git clone https://github.com/KayJss/PVPTIERLIST
    cd minecraft-tier-site
    ```
 
@@ -101,15 +128,11 @@ Farklı PvP kitleri için oyuncu tier'larını, rozetlerini ve puanlarını gös
 - Kolay sunucu IP kopyalama
 - Gerçek zamanlı veri için API entegrasyonu
 
-### Demo
-
-![screenshot](https://i.imgur.com/1Q9Z1ZB.png) <!-- Kendi ekran görüntünüzle değiştirebilirsiniz -->
-
 ### Kurulum
 
 1. **Projeyi klonlayın:**
    ```
-   git clone https://github.com/yourusername/minecraft-tier-site.git
+   git clone https://github.com/KayJss/PVPTIERLIST
    cd minecraft-tier-site
    ```
 
